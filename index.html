@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <title>CV Viktoriya Malikova</title>
 </head>
+
 <body>
-    <h1>my CV</h1>
+    <header class="header">
+        <div class="container-header">
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="content">
+            <div class="content-left">
+                <section class="section-profile">
+                    <img src="./assets/img/myphoto.jpg" alt="myphoto">
+                    <h1>Viktoriya Malikova</h1>
+                </section>
+                <section class="section-contacts" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contacts-items">
+                        <li class="contacts-item"><span class="span">Address:</span> Samara, Russia</li>
+                        <li class="contacts-item"><span class="span">Phone:</span> +79277170077</li>
+                        <li class="contacts-item"><span class="span">E-mail:</span> v9229042@yandex.ru</li>
+                        <li class="contacts-item"><span class="span">Telegram:</span> @v7170077</li>
+                        <li class="contacts-item"><span class="span">Discord:</span> Viktoriya (@ViktoriyaMalikova)</li>
+                </section>
+                <section class="section-skills" id="skills">
+                    <h2>Skills</h2>
+                    <ul class="skills-items">
+                        <li class="skills-item">HTML ((Fundamentals)</li>
+                        <li class="skills-item">CSS (Fundamentals)</li>
+                        <li class="skills-item">Git/GitHub</li>
+                </section>
+            </div>
+            <div class="content-right">
+                <section class="section-aboutme" id="aboutme">
+                    <h2>About me</h2>
+                    <p>I have an economics degree, but I have never worked in my specialty. I have experience in sales,
+                        worked as a department head. At the age of 31, I realized that I wanted to change my field of
+                        activity. The IT field has attracted me for a long time and I have always wanted to master a
+                        technical specialty. The choice fell on the profession of Frontend developer. The purpose of
+                        studying at School is to gain knowledge and skills that will help me successfully find a job in
+                        a new specialty after completing the course.</p>
+                </section>
+                <section class="section-code" id="code">
+                    <h2>Code</h2>
+                    <code>function multiply(a, b){<br>
+                    return a * b<br>
+                  }
+              </code>
+                    </pre>
+                </section>
+                <section class="section-projects" id="projects">
+                    <h2>Projects</h2>
+                    <p><a href="https://viktoriyamalikova.github.io/rsschool-cv/cv" target="_blank">CV#1 Markdown &
+                            Git</a></p>
+                </section>
+                <section class="section-education" id="education">
+                    <h2>Education</h2>
+                    <ul class="education-items">
+                        <li class="education-item">Preparatory course "JavaScript/Front-end. Stage 0» (in process)</li>
+                        <li class="education-item">HTML Academy, Start in the frontend (in process)</li>
+                    </ul>
+                </section>
+                <section class="section-language" id="language">
+                    <h2>Language</h2>
+                    <p>English - A1</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="link-github">© 2022
+                <a href="https://github.com/ViktoriyaMalikova" target="_blank">ViktoriyaMalikova</a>
+            </div>
+            <div class="link-rs">
+                <a href="https://rs.school/" target="_blank">
+                    <img src="assets/svg/rsschool.svg" alt="rs_school_logo">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
