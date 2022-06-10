@@ -1,7 +1,213 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    padding: 0 30px;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: "Georgia", serif;
-    color: #222222;
-  }
+  font-family: Roboto, sens-serif;
+  font-size: 16px;
+  background-color: #f3edf7;
+}
+
+h1 {
+  color: #f9a600;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #f7d48f;
+  font-size: 22px;
+}
+
+code {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  background-color: #372644;
+}
+
+.container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+  height: 80px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 42px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-left {
+  width: 30%;
+  border: 1px solid #372644;
+  border-radius: 10px;
+  background-color: #372644;
+  color: #fff;
+}
+
+.content-right {
+  width: 65%;
+  border: 1px solid #372644;
+  border-radius: 10px;
+  padding-top: 0px;
+  padding-left: 20px;
+  background-color: #372644;
+  color: #fff;
+}
+
+.section-profile {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.section-profile img {
+  margin-top: 20px;
+  max-width: 60%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.section-contacts {
+  margin-top: 40px;
+}
+
+.section-contacts h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contacts-item {
+  list-style-type: none;
+  line-height: 150%;
+}
+
+.span {
+  font-weight: 700;
+}
+
+.section-skills {
+  margin-top: 40px;
+}
+
+.section-skills h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skills-items {
+  padding-left: 60px;
+  line-height: 150%;
+}
+
+.section-aboutme {
+  margin: 30px;
+  line-height: 150%;
+}
+
+.section-aboutme h2 {
+  margin-bottom: 20px;
+}
+
+.section-code {
+  margin: 30px;
+
+}
+
+.section-code h2 {
+  margin-bottom: 20px;
+}
+
+
+.section-projects {
+  margin: 30px;
+
+}
+
+.section-projects h2 {
+  margin-bottom: 20px;
+}
+
+.section-education {
+  margin: 30px;
+  line-height: 150%;
+}
+
+.section-education h2 {
+  margin-bottom: 20px;
+}
+
+.education-items {
+  padding-left: 18px;
+}
+
+.section-language {
+  margin: 30px;
+
+}
+
+.section-language h2 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #372644;
+}
+
+.container-footer {
+  max-width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  list-style: none;
+}
+
+.link-rs img {
+  width: 100px;
+}
