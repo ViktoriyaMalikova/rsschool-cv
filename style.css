@@ -14,9 +14,11 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
+
 body {
   font-family: Roboto, sens-serif;
   font-size: 16px;
@@ -32,7 +34,7 @@ h1 {
 h2 {
   color: #f7d48f;
   font-size: 22px;
-  }
+}
 
 code {
   text-align: left;
